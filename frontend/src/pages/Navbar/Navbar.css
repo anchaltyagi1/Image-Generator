@@ -1,0 +1,39 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  .links a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links a.active {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .points {
+    font-size: 16px;
+  }
+  
+  .auth button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .auth button:hover {
+    text-decoration: underline;
+  }
+  

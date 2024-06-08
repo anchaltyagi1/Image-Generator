@@ -1,0 +1,31 @@
+POST  http://localhost:3001/api/v1/auth/sign-up
+Content-Type: application/json
+
+{
+    "email":"sumit@gmail.com",
+    "password":"123456"
+}
+
+###
+
+GET  http://localhost:3001/api/v1/auth/sign-in
+Content-Type: application/json
+
+{
+    "email":"sumit@gmail.com",
+    "password":"123456"
+}
+
+###
+
+POST  http://localhost:3001/api/v1/images
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY0MWY4ZGE1NWRkZGRkM2RkMDcxMWYiLCJpYXQiOjE3MTc4NTYxMjUsImV4cCI6MTcxNzg1OTcyNX0.kBH3MuvSEgRJe3hyczrBRDh5YnyPy0JXr3h6BwUDnJ8
+
+###
+GET  http://localhost:3001/api/v1/images
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY0MWY4ZGE1NWRkZGRkM2RkMDcxMWYiLCJpYXQiOjE3MTc4NTYxMjUsImV4cCI6MTcxNzg1OTcyNX0.kBH3MuvSEgRJe3hyczrBRDh5YnyPy0JXr3h6BwUDnJ8
+
+
+

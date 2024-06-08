@@ -1,0 +1,20 @@
+.contact-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-content h2 {
+    margin-bottom: 10px;
+}
+
+.contact-content p {
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    margin-bottom: 5px;
+}
