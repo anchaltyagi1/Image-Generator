@@ -13,7 +13,7 @@ const ContactPage = () => {
           contact us.
         </p>
         <div className="contact-details">
-          <p>Email: sumitrawat@gmail.com</p>
+          <p>Email: anchaltyagi@gmail.com</p>
           <p>Phone: +1234567890</p>
           <p>Address: 123 Main-Road,Ghaziabad,India</p>
         </div>
